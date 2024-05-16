@@ -1,0 +1,29 @@
+.servText{
+    position: absolute;
+    top: 77%;
+    background-color: #fff;
+    min-width: 101%;
+    min-height: 220px;
+    padding: 5%;
+    text-align: center;
+}
+
+.sevicesDiv{
+    height: 250px;
+    margin: 4%;
+    transition: 0.5s;
+}
+
+.sevicesDiv:hover{
+    scale: 1.05;
+}
+
+.imgDiv{
+    height: 150px;
+}
+
+.footerDiv{
+    position: absolute;
+    width: 100%;
+    top:135%;
+}

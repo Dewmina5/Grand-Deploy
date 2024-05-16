@@ -1,0 +1,76 @@
+ @import "../vars.css";
+
+
+/* RegistrationScreen.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding:3rem;
+    margin-top: 90px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    z-index: 1;
+    padding: auto;
+    border-radius: 15px;
+    box-shadow:1px 4px 8px rgba(0, 0, 0, 0.1); ;
+    height: 100%;
+    width: 100%;
+    padding:3rem;
+    margin-top: 90px;
+    /* background-color: rgba(169, 169, 169, 0.3); */
+    background-image: url('https://img.freepik.com/free-vector/background-tamplate_125964-701.jpg?w=900&t=st=1706849294~exp=1706849894~hmac=f1fac2949b7e19d727329b1b78a532f5edcc3fbc46238ac3256ead8a266ec3f8') !important;
+    background-repeat:no-repeat;
+    background-size: cover;
+    z-index: 1;
+    padding: auto;
+    border-radius: 15px;
+    box-shadow:1px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    font-weight: 800;
+    text-align: center;
+    font-family: lato;
+    
+  }
+  /* .bodyD {
+    background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg') !important;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:6.215%;
+    position: absolute;
+    width: 100%;
+    min-height:100% ;
+
+  } */
+
+
+  
+  .form {
+    width: 100%
+  }
+  
+  .button {
+    margin-top: 1rem !important; 
+    margin-bottom: 0.5rem !important;
+    margin-left: 80% !important;
+    background-color: #17376e !important;
+   
+   
+    
+  }
+  
+  .link {
+    margin-top: 10px !important; /* Adjust the margin as needed */
+  }
+  
+
+
+  

@@ -1,0 +1,133 @@
+@import "../vars.css";
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30% !important;
+    min-height:55% !important ;
+    margin: auto;
+    padding: 20px !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://img.freepik.com/free-vector/background-tamplate_125964-701.jpg?w=900&t=st=1706849294~exp=1706849894~hmac=f1fac2949b7e19d727329b1b78a532f5edcc3fbc46238ac3256ead8a266ec3f8') !important;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 2.5rem !important;
+    border-radius: 15px;
+    box-shadow:1px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .bodyD {
+ 
+    background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    min-height:100vh ;
+
+   
+
+  }
+  
+  .title {
+    margin-bottom: 1rem !important;
+  }
+  
+  .usernameInput {
+    width: 100%;
+    margin-bottom: 1rem  !important;
+  }
+  
+  .passwordInput {
+    width: 100%;
+    margin-top: 2rem !important;
+  }
+  
+  .checkboxLabel {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .loginButton {
+    margin-top: 20px !important;
+    margin-top: 20px !important;
+  }
+  
+  .forgotPassword {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  .signUpLink {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    min-height: 55%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://img.freepik.com/free-vector/background-tamplate_125964-701.jpg?w=900&t=st=1706849294~exp=1706849894~hmac=f1fac2949b7e19d727329b1b78a532f5edcc3fbc46238ac3256ead8a266ec3f8');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bodyD {
+    background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.usernameInput {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.passwordInput {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.checkboxLabel {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.loginButton {
+    margin-top: 30px !important;
+    background-color: #17376e !important;
+}
+
+.forgotPassword {
+    text-align: left;
+    margin-top: 4rem;
+}
+
+.signUpLink {
+    text-align: left;
+    margin-top: 0.5rem;
+}

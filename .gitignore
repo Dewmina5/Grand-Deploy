@@ -1,0 +1,28 @@
+# dependencies
+node_modules         # Ignore the node_modules directory where npm installs dependencies
+/.pnp                # Ignore PnP data file
+.pnp.js              # Ignore PnP JavaScript file
+
+# testing
+/coverage            # Ignore coverage reports generated during testing
+
+# production
+/build               # Ignore build artifacts or compiled code in the build directory
+
+# misc
+.DS_Store            # Ignore macOS Finder metadata file
+.env.local           # Ignore local environment variables file
+.env.development.local  # Ignore local development environment variables file
+.env.test.local      # Ignore local test environment variables file
+.env.production.local  # Ignore local production environment variables file
+npm-debug.log*       # Ignore npm debug logs
+yarn-debug.log*      # Ignore Yarn debug logs
+yarn-error.log*      # Ignore Yarn error logs
+
+# lock files
+package-lock.json    # Ignore npm package lock file
+yarn.lock            # Ignore Yarn lock file
+node_modules
+
+# Package lock
+package-lock.json

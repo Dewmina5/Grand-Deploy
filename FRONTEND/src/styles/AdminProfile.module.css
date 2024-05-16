@@ -1,0 +1,13 @@
+@import "../vars.css";
+
+
+.bodyD {
+    background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    min-height:100% ;
+
+  }
