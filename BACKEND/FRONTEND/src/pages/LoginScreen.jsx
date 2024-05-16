@@ -60,7 +60,7 @@ const LoginScreen = () => {
     if (isValid) {
       try {
         const response = await axios.post(
-          "http://localhost:8000/api/admin/signin",
+          "api/admin/signin",
           {
             UserName: formData.username,
             Password: formData.password,
