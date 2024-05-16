@@ -4,9 +4,10 @@ import { getStorage } from "firebase/storage";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+const VITE_FIREBASE_API_KEY = "AIzaSyDcAN4v1quSk0AdNG4U6728iAl4aHMWuxI"
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey:  import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey:  VITE_FIREBASE_API_KEY,
   authDomain: "grant-management-d5811.firebaseapp.com",
   projectId: "grant-management-d5811",
   storageBucket: "grant-management-d5811.appspot.com",

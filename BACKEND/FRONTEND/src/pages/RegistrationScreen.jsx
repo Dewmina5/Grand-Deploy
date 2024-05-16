@@ -84,7 +84,7 @@ const RegistrationScreen = () => {
       };
 
       const AdminRegistrationResponce = await axios.post(
-        "http://localhost:8000/api/admin/add",
+        "api/admin/add",
         newAdmin
       );
 

@@ -36,7 +36,7 @@ const UserFormViewScreen = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:8000/api/grant/view-single-application-ByEmail/' + userID); // Make request to backend API endpoint
+            const response = await axios.get('api/grant/view-single-application-ByEmail/' + userID); // Make request to backend API endpoint
             setUserFormData(response.data.GrantAplication); // Update state with retrieved data
         } catch (error) {
             console.error('Error fetching data:', error);

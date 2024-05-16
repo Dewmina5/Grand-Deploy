@@ -777,7 +777,7 @@ const FormScreen = () => {
 
     console.log(newGrantHolderData);
     await axios
-      .post("http://localhost:8000/api/grant/apply-user", newGrantHolderData)
+      .post("api/grant/apply-user", newGrantHolderData)
       .then((response) => {
 
         setIsLoading(false);
@@ -808,7 +808,7 @@ const FormScreen = () => {
 
     if (isApplied) {
       await axios
-        .post("http://localhost:8000/api/admin/add", newGrantReg)
+        .post("api/admin/add", newGrantReg)
         .then((response1) => {
           console.log("grantUser registered:", response1.data);
           alert("Use these credentials to login,  UserName : " + email + "Password : " + nic);
