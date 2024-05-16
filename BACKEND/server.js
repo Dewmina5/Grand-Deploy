@@ -4,6 +4,10 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 var morgan = require("morgan");
 const bodyParser = require("body-parser");
+const path = require("path");
+const fileURLToPath = require("url")
+
+console.log(__dirname);
 
 const PORT = process.env.PORT || 8000;
 const app = express();
@@ -32,6 +36,14 @@ app.use("/api/admin", AdminRoutes);
 
 const ContactUs = require("./routes/ContactUsRounts");
 app.use("/api/contact", ContactUs);
+
+//use frontend app
+app.use(express.static(path.join(__dirname, "/FRONTEND/dist")));
+
+app.get("*", (req, res)=>
+  res.sendFile(path.join(__dirname, "/FRONTEND/dist/index.html"))
+);
+
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
