@@ -63,7 +63,7 @@ export default function AdminProfile() {
 
   const updateState = () => {
     axios
-      .put("http://localhost:8000/api/admin/update-status/" + id, Status)
+      .put("api/admin/update-status/" + id, Status)
       .then((res) => {
         console.log(res);
         Swal.fire({
@@ -83,7 +83,7 @@ export default function AdminProfile() {
   useEffect(() => {
     function fetchUserDetails() {
       axios
-        .get("http://localhost:8000/api/admin/profile/" + id)
+        .get("api/admin/profile/" + id)
         .then((res) => {
           console.log(res.data.AdminAplication);
           setUsers(res.data.AdminAplication);
@@ -115,7 +115,7 @@ export default function AdminProfile() {
 
       axios
         .put(
-          "http://localhost:8000/api/admin/update-password/" + id,
+          "api/admin/update-password/" + id,
           chagePasswords
         )
         .then((res) => {
