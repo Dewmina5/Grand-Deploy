@@ -24,7 +24,7 @@ export default function ApproveList() {
     function getSystemUsers() {
       axios
         .get(
-          "http://localhost:8000/api/grant/view-application-univercity/" +
+          "api/grant/view-application-univercity/" +
             univercityName,
           getSystemUsers
         )

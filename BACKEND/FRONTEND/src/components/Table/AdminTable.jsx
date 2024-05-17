@@ -18,7 +18,7 @@ export default function AdminTable() {
   useEffect(() => {
     function getSystemUsers() {
       axios
-        .get("http://localhost:8000/api/admin/getSYSusers", getSystemUsers)
+        .get("api/admin/getSYSusers", getSystemUsers)
         .then((res) => {
           console.log(res.data.SystemUsers);
           setUsers(res.data.SystemUsers);

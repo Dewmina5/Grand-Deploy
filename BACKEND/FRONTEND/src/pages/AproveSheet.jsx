@@ -16,7 +16,7 @@ export default function AproveSheet() {
   useEffect(() => {
     function fetchUserDetails() {
       axios
-        .get("http://localhost:8000/api/grant/view-single-application/" + id.id)
+        .get("api/grant/view-single-application/" + id.id)
         .then((res) => {
           console.log(res.data.GrantAplication);
           setUsers(res.data.GrantAplication);
