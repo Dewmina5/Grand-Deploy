@@ -17,6 +17,8 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import styles from "../styles/LoginScreen.module.css"; // Import the CSS module
 import { useNavigate } from "react-router-dom";
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 const LoginScreen = () => {
   const [formData, setFormData] = useState({
@@ -32,6 +34,7 @@ const LoginScreen = () => {
 
   const Navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const validateForm = () => {
     let valid = true;
@@ -42,18 +45,12 @@ const LoginScreen = () => {
       valid = false;
     }
 
-    // Password strength check
-    // const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
-    // if (!formData.password || !passwordRegex.test(formData.password)) {
-    //   newErrors.password = "Password must be at least 6 characters.";
-    //   valid = false;
-    // }
-
     setErrors(newErrors);
     return valid;
   };
 
   const handleSubmit = async (e) => {
+    setIsLoading(true);
     e.preventDefault();
     const isValid = validateForm();
 
@@ -88,7 +85,7 @@ const LoginScreen = () => {
         ) {
           Navigate("/aprove-home");
           localStorage.setItem("userID", response.data._id);
-        } else if(response.data.UserType === "User" ){
+        } else if (response.data.UserType === "User") {
           Navigate("/viewForm");
         }
 
@@ -96,12 +93,15 @@ const LoginScreen = () => {
           duration: 3000, // 3 seconds
           position: "top-right", // You can change the position if needed
         });
+        setIsLoading(false);
       } catch (error) {
         console.error("Login failed", error);
         toast.error("Login Failed!");
+        setIsLoading(false);
       }
     } else {
       console.log("Login failed");
+      setIsLoading(false);
     }
   };
 
@@ -216,8 +216,11 @@ const LoginScreen = () => {
               </Typography>
             )}
           </FormControl>
-
-          <Button
+          {isLoading ? (<>
+            <Box sx={{ display: 'flex' }}>
+              <CircularProgress />
+            </Box>
+          </>) : (<><Button
             type="submit"
             variant="contained"
             color="primary"
@@ -225,7 +228,8 @@ const LoginScreen = () => {
             className={styles.loginButton}
           >
             Login
-          </Button>
+          </Button></>)}
+
         </form>
 
         <Box className={styles.forgotPassword}>

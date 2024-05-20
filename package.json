@@ -8,7 +8,7 @@
     "project": "concurrently \"npm start\" \"npm run client\"",
     "start": "nodemon BACKEND/server.js",
     "build" : "npm install --prefix BACKEND/FRONTEND && npm run build --prefix BACKEND/FRONTEND && npm install",
-    "client": "npm run dev --prefix FRONTEND"
+    "client": "npm run dev --prefix BACKEND/FRONTEND"
   },
   "author": "NCAS",
   "license": "ISC",
