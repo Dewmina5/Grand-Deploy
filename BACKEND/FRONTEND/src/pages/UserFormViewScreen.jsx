@@ -241,7 +241,7 @@ const UserFormViewScreen = () => {
                                                                     padding: "10px",
                                                                     borderRadius: '10px',
                                                                     marginLeft: '4%'
-                                                                }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
+                                                                }}>View PDF<img src={"./pdf.png"} width={25} /></a>
                                                             </Col>
 
                                                             <Col>
@@ -639,7 +639,7 @@ const UserFormViewScreen = () => {
                                                                                             padding: "10px",
                                                                                             borderRadius: '10px',
                                                                                             marginLeft: '4%'
-                                                                                        }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
+                                                                                        }}>View PDF<img src={"./pdf.png"} width={25} /></a>
                                                                                     </Col>
                                                                                 </TableCell>
                                                                             </TableRow>
@@ -711,7 +711,7 @@ const UserFormViewScreen = () => {
                                                                 padding: "10px",
                                                                 borderRadius: '10px',
                                                                 marginLeft: '4%'
-                                                            }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
+                                                            }}>View PDF<img src={"./pdf.png"} width={25} /></a>
                                                         </Col>
                                                     </Row>
                                                     <br />
@@ -759,7 +759,7 @@ const UserFormViewScreen = () => {
                                                                 padding: "10px",
                                                                 borderRadius: '10px',
                                                                 marginLeft: '4%'
-                                                            }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
+                                                            }}>View PDF<img src={"./pdf.png"} width={25} /></a>
                                                         </Col>
                                                     </Col>
                                                     <Col>
@@ -771,7 +771,7 @@ const UserFormViewScreen = () => {
                                                                 padding: "10px",
                                                                 borderRadius: '10px',
                                                                 marginLeft: '4%'
-                                                            }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
+                                                            }}>View PDF<img src={"./pdf.png"} width={25} /></a>
                                                         </Col>
                                                     </Col>
                                                 </Row>
