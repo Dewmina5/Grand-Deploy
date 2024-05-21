@@ -241,7 +241,7 @@ const UserFormViewScreen = () => {
                                                                     padding: "10px",
                                                                     borderRadius: '10px',
                                                                     marginLeft: '4%'
-                                                                }}>View PDF<img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fpdf-logo&psig=AOvVaw2Z1rIxJhQxuefAjrAYhf32&ust=1716357525647000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODl_paInoYDFQAAAAAdAAAAABAE"} width={25} /></a>
+                                                                }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
                                                             </Col>
 
                                                             <Col>
@@ -639,7 +639,7 @@ const UserFormViewScreen = () => {
                                                                                             padding: "10px",
                                                                                             borderRadius: '10px',
                                                                                             marginLeft: '4%'
-                                                                                        }}>View PDF<img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fpdf-logo&psig=AOvVaw2Z1rIxJhQxuefAjrAYhf32&ust=1716357525647000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODl_paInoYDFQAAAAAdAAAAABAE"} width={25} /></a>
+                                                                                        }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
                                                                                     </Col>
                                                                                 </TableCell>
                                                                             </TableRow>
@@ -711,7 +711,7 @@ const UserFormViewScreen = () => {
                                                                 padding: "10px",
                                                                 borderRadius: '10px',
                                                                 marginLeft: '4%'
-                                                            }}>View PDF<img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fpdf-logo&psig=AOvVaw2Z1rIxJhQxuefAjrAYhf32&ust=1716357525647000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODl_paInoYDFQAAAAAdAAAAABAE"} width={25} /></a>
+                                                            }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
                                                         </Col>
                                                     </Row>
                                                     <br />
@@ -759,7 +759,7 @@ const UserFormViewScreen = () => {
                                                                 padding: "10px",
                                                                 borderRadius: '10px',
                                                                 marginLeft: '4%'
-                                                            }}>View PDF<img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fpdf-logo&psig=AOvVaw2Z1rIxJhQxuefAjrAYhf32&ust=1716357525647000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODl_paInoYDFQAAAAAdAAAAABAE"} width={25} /></a>
+                                                            }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
                                                         </Col>
                                                     </Col>
                                                     <Col>
@@ -771,7 +771,7 @@ const UserFormViewScreen = () => {
                                                                 padding: "10px",
                                                                 borderRadius: '10px',
                                                                 marginLeft: '4%'
-                                                            }}>View PDF<img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fpdf-logo&psig=AOvVaw2Z1rIxJhQxuefAjrAYhf32&ust=1716357525647000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODl_paInoYDFQAAAAAdAAAAABAE"} width={25} /></a>
+                                                            }}>View PDF<img src={"assets/NAV/pdf.png"} width={25} /></a>
                                                         </Col>
                                                     </Col>
                                                 </Row>
