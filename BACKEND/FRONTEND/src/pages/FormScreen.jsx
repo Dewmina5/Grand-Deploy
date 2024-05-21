@@ -405,9 +405,6 @@ const FormScreen = () => {
     });
   };
 
-  const isStepOptional = (step) => {
-    return step === 1 || step === 0 || step === 2;
-  };
 
   const isStepSkipped = (step) => {
     return skipped.has(step);
@@ -447,7 +444,6 @@ const FormScreen = () => {
           .then(() => {
             getDownloadURL(ProfileImageRef)
               .then((downloadURL) => {
-                alert("Image uploaded. Download URL: " + downloadURL);
                 resolve(downloadURL);
               })
               .catch((error) => {
