@@ -63,7 +63,9 @@ const UserFormViewScreen = () => {
     const handleReset = () => {
         setActiveStep(0);
     };
-    
+    const isStepOptional = (step) => {
+        return null;
+    };
 
     const isStepSkipped = (step) => {
         return skipped.has(step);

@@ -405,6 +405,9 @@ const FormScreen = () => {
     });
   };
 
+  const isStepOptional = (step) => {
+    return null;
+  };
 
   const isStepSkipped = (step) => {
     return skipped.has(step);
