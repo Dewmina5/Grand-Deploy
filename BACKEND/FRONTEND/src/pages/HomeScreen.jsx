@@ -24,7 +24,7 @@ const divImgStyle = {
 }
 
 const imgStyle = {
-    width: '75%',
+    width: '100%',
     height: '100%',
     float: 'right',
 };
@@ -56,6 +56,25 @@ const HomeScreen = () => {
 
             </div>
 
+            <Row style={{ margin: '19% 0 16% 0' }}>
+
+                <Col>
+                    <center>
+                        {storedUserInfo ? (
+                            <>
+                                {storedUserInfo.UserType == 'Admin' ? (
+                                    <p style={{ position: 'relative', fontSize: 'x-large', color:'white' }}>You are a admin</p>
+                                ) : (
+                                    <p style={{ position: 'relative', fontSize: 'x-large',color:'white' }}>You already applyed</p>
+                                )}
+                            </>) : (<> <Guideline /></>)
+                        }
+
+                    </center>
+                </Col>
+
+            </Row>
+
             <Row className={HomeScreenStyle.servText}>
                 <Col>
                     <Row style={{}}>
@@ -85,24 +104,6 @@ const HomeScreen = () => {
                 </Col>
             </Row>
 
-            <Row style={{ margin: '22% 0px' }}>
-
-                <Col>
-                    <center>
-                        {storedUserInfo ? (
-                            <>
-                                {storedUserInfo.UserType == 'Admin' ? (
-                                    <p style={{ position: ' absolute' }}>You are a admin</p>
-                                ) : (
-                                    <p style={{ position: ' absolute' }}>You already applyed</p>
-                                )}
-                            </>) : (<> <Guideline /></>)
-                        }
-
-                    </center>
-                </Col>
-
-            </Row>
             <div className={HomeScreenStyle.footerDiv}>
                 <Footer />
             </div>
